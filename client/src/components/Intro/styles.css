@@ -1,0 +1,125 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    color: #181818;
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 40pt;
+    padding-top: 5pt;
+    font-weight: bold;
+  }
+
+  .br{
+      display: block;
+      margin-top: 7pt;
+  }
+  
+  .intro {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 15pt;
+  }
+  
+  .purpletext {
+    color: blueviolet;
+  }
+  
+  .bold {
+    font-weight: 550;
+  }
+  
+  .feature {
+    font-size: 15pt;
+    font-weight: 200;
+    padding-top: 1pt;
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+  .header2 {
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 10pt;
+    color: #181818;
+    font-family: 'Montserrat';
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  .button {
+    background: blueviolet;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 15px 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: 10pt;
+    margin-right: 10pt;
+
+    a:hover {
+        color: rgb(255, 255, 255);
+      }
+  }
+  
+  #container1 {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    margin-top: 20pt;
+    background-color: rgba(137, 43, 226, 0.152);
+  }
+  .support {
+    font-size: 15pt;
+    color: #181818;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .brand {
+    background-color: white;
+    border-width: 0pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+  }
+
+  .whitetext{
+      color: #ffffff;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid blueviolet; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
