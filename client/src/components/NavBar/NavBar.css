@@ -1,0 +1,60 @@
+#appNavBar {
+    background-color: white;
+    box-shadow: 10px 5px 15px rgba(137, 43, 226, 0.568);
+  }
+  
+  #logoNavBar {
+    padding: 3px;
+    border-radius: 100px;
+    background: white;
+    width: 45px;
+    margin-right: 8px;
+  }
+  
+  #appNavBar span {
+    color: #7dacf2;
+  }
+  
+  #appNavBar .navbar-brand {
+    padding: 0;
+    padding-top:3px;
+    color: blueviolet;
+    font-size: medium;
+  }
+  
+  .navLink {
+    color: blueviolet;
+    font-weight: 400;
+  }
+  
+  .theNavLink {
+    text-align: center;
+  }
+  
+  
+  .button-34 {
+    background: #ffffff;
+    border-radius: 999px;
+    color: blueviolet;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-width: 0.5pt;
+    margin-left: 8pt;
+    border-color: blueviolet;
+  }
+  
+  .purpletext {
+    color: blueviolet;
+    text-decoration: none;
+  }
