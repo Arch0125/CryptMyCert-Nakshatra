@@ -202,9 +202,8 @@ console.log(userHash);
           <pre className={"modelHashData"}>{modalContent.returnValues.fileHash}</pre>
           <p><b>File Size:</b></p>
           <p>{modalContent.returnValues.fileSize}</p>
-          <p><b>File Extension:</b></p>
+          <p><b>Recepient Address:</b></p>
           <p>{modalContent.returnValues.fileExtension}</p>
-          <p><b>Blockchain Transaction:</b></p>
 
         </ModalBody>
         <ModalFooter>
