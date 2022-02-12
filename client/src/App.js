@@ -26,10 +26,10 @@ class App extends Component {
       <div className="App">
       <NavBar />
       <Router>
-      <Route exact path="/" component={FileCertificatorPage} />
+      <Route path="/filecert" component={FileCertificatorPage} />
       <Route path="/faq" component={FaqPage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/intro" component={Intro}/>
+      <Route exact path="/" component={Intro}/>
       <Route path="/pay" component={Payment}/>
 
       </Router>

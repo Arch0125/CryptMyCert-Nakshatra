@@ -191,7 +191,7 @@ class FileCertificatorPage extends Component {
           Login as Participant
         </button>
         </a>
-        <a href="/" >
+        <a href="/filecert" >
         <button class="button" type="button">
           Login as Organiser
         </button>

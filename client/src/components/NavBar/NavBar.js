@@ -50,7 +50,7 @@ class NavBar extends Component {
 
     return (
       <Navbar id={"appNavBar"} type="dark" expand="md">
-          <NavbarBrand href="/intro">
+          <NavbarBrand href="/">
             <b>CryptMyCert</b>
           </NavbarBrand>
           <NavbarToggler onClick={() => this.toggleNavbar()} />
