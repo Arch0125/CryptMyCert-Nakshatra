@@ -8,6 +8,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "@truffle/hdwallet-provider": "^2.0.3",
     "crypto-js": "^3.1.9-1",
+    "ethers": "^5.5.4",
     "ipfs-api": "^26.1.2",
     "jspdf": "^1.5.3",
     "node-gyp": "^5.0.3",

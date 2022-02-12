@@ -12,8 +12,6 @@ import {
 // style
 import "./NavBar.css";
 
-import iconimg from "../../assets/iconz.png"
-import logoWeb from "../../assets/logo-web.png"
 
 class NavBar extends Component {
 
