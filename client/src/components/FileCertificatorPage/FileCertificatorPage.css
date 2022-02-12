@@ -1,7 +1,21 @@
 b {
   font-weight: 700 !important;
 }
-/* From cssbuttons.io */
+/* From cssbuttons.io, freefrontend */
+
+.button2 {
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	color: blueviolet;
+	background: white;
+	border: 1px solid blueviolet;
+	border-radius: 10px;
+}
+
+
 .button1 {
   display: inline-block;
   padding: 10px 22px;
@@ -149,11 +163,23 @@ b {
   margin-bottom: 2vh;
 }
 
+.addinput{
+  background-color: #fff;
+  color: #181818;
+  font-size: medium;
+  border-radius: 10pt;
+  border-width: 0.5pt;
+  border-color: blueviolet;
+  padding-left: 10pt;
+  margin-left: 5pt;
+  margin-right: 5pt;
+}
+
 #fileUplCont {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #4c5464;
+  background: rgba(137, 43, 226, 0.219);
   margin-bottom: 5vh;
   margin-left: 2vw;
   margin-right: 2vw;
@@ -182,8 +208,23 @@ b {
 
 .tutorialParags {
   font-size: 1.4rem;
-  color: white;
+  color: #181818;
   /* margin- */
+}
+
+.help{
+  font-size: medium;
+  color: #181818;
+}
+
+.hash{
+  font-size: medium;
+  color: #181818;
+  background-color: rgb(255, 255, 255);
+  padding: 3pt;
+  border-radius: 5pt;
+  border-width: 10pt;
+  border-color: blueviolet;
 }
 
 #fileCert {
@@ -232,7 +273,7 @@ b {
 
 .fileSize {
   text-align: center;
-  color: #fff;
+  color: #181818;
   /* margin-top: 1vh; */
   margin-bottom: 0;
 }
@@ -268,6 +309,8 @@ b {
 
 .certifyFileFinalBtn {
   font-size: 1.2rem !important;
+  background-color: blueviolet !important;
+  border-color: blueviolet !important;
 }
 
 .certifyFileFinalBtn svg {

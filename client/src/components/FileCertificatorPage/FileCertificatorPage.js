@@ -191,27 +191,6 @@ class FileCertificatorPage extends Component {
       console.log('buffer', this.state.buffer)
       this.uploadtoipfs(hashValue,uplFileSize,uplFileExtension);
     }
-
-
-
-       // outputFileHash()
-    // reader.onload = (e) => {
-    //   var arrayBuffer = e.target.result;
-    //   // event.preventDefault()
-    //
-    //     // var hashValue = CryptoJS.SHA256(this.arrayBufferToWordArray(arrayBuffer)).toString(CryptoJS.enc.Hex);
-    //   var hashValue =  this.state.ipfsHash;
-    //     this.setState({fileHash: hashValue, fileSize: uplFileSize, fileExtension: uplFileExtension}, () => {console.log("STATE >>", this.state)})
-    // }
-    // reader.readAsArrayBuffer(uplFile);
-   //  event.preventDefault()
-   // const file = event.target.files[0]
-   // const reader = new window.FileReader()
-   // reader.readAsArrayBuffer(file)
-   // reader.onloadend = () => {
-   //   this.setState({ buffer: Buffer(reader.result) })
-   //   console.log('buffer', this.state.buffer)
-   // }
   }
 
   toggleTxModal(keyElement) {
@@ -245,19 +224,18 @@ class FileCertificatorPage extends Component {
 
     return (
       <div >
-        <p className={"fileSize fade-in"}>Review the metadata</p>
         <div >
-          <p className={"fileSize fade-in"}>
-            <u>IPFS Hash:</u> </p>
-            <p className={"fileSize2 fade-in"}><strong>{this.state.fileHash}</strong>
+          <p class="help">
+            IPFS Hash:</p>
+            <p class="hash"><strong>{this.state.fileHash}</strong>
           </p>
-          <p className={"fileSize fade-in"}>
+          <p class="help">
           <form onSubmit={this.handleSubmit} >
                   <label>
                     Enter Recipient Wallet address:
-                    <input type="text" value={this.state.value} onChange={this.handleChange} />
+                    <input class="addinput" type="text" value={this.state.value} onChange={this.handleChange} />
                   </label>
-                  <input type="button" onClick={this.handleSubmit} value="Confirm" />
+                  <input class="button2" type="button" onClick={this.handleSubmit} value="Confirm" />
                 </form>
           </p>
           
@@ -324,9 +302,8 @@ class FileCertificatorPage extends Component {
 
     return (
       <div >
-        <p className={"fileSize fade-in"}>Timestamp the metadata into the blockchain</p>
         <div className={"stepsContainer"} >
-         <Button className={`${this.state.fadeInAnimation} ${this.state.clickAnimation2} certifyFileFinalBtn`} theme="success" onClick={() => this.certifyFile()} disabled={!this.state.fileHash} style={{padding: '20px'}}><FontAwesomeIcon icon={faStamp} ></FontAwesomeIcon>CERTIFY FILE</Button>
+         <Button className={`${this.state.fadeInAnimation} ${this.state.clickAnimation2} certifyFileFinalBtn`} theme="success" onClick={() => this.certifyFile()} disabled={!this.state.fileHash} style={{padding: '10px'}}><FontAwesomeIcon icon={faStamp} ></FontAwesomeIcon>Send Certificate</Button>
           </div>
       </div>
     )
@@ -394,8 +371,8 @@ class FileCertificatorPage extends Component {
           </div>
           <div id="fileUplCont">
             <div className={"stepsContainer"}>
-              <Button size={'lg'} className={`certifyBtn ${this.state.clickAnimation}`}><label htmlFor="fileCert"> <FontAwesomeIcon id={"uploadIcon"} icon={faUpload} />CHOOSE FILE</label></Button>
-            <p className={"tutorialParags"}>Select the file that you want to upload to IPFS and insert into blockchain</p>
+              <Button size={'lg'} class="button1"><label htmlFor="fileCert"> <FontAwesomeIcon id={"uploadIcon"} icon={faUpload} />CHOOSE FILE</label></Button>
+            <p class="help">Select the Certificate that you want to upload to IPFS</p>
             </div>
 
             <input id="fileCert" name="fileCert" type="file" onChange={(e) => this.uploadFile(e)} />
