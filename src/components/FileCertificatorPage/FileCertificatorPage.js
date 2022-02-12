@@ -1,29 +1,19 @@
 //CORE DEPENDENCIES
 import React, { Component } from "react";
-import Particles from 'react-particles-js';
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import AuthenticityContract from "../../contracts/Authenticity.json";
 import getWeb3 from "../../utils/getWeb3";
 import CryptoJS from "crypto-js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //UI COMPONENTS
-import { faChevronDown, faInfoCircle, faUpload, faStamp, faHourglassHalf, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {ListGroup, ListGroupItem, Card, CardBody, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'shards-react';
+import { faUpload, faStamp} from "@fortawesome/free-solid-svg-icons";
+import {Card, CardBody, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'shards-react';
 import extensions from '../../assets/fileIcons/';
-import particlesConfig from '../../assets/backgrParticlesConfig.json';
 import "./FileCertificatorPage.css";
 
 
 const IPFS = require('ipfs-api');
 const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
 
-// export default ipfs;
-// assets & style
-
-
-//import certificateTemplateJpg from '../../utils/1_Thapar_Student_Residencies.jpg';
-//import certificateTemplateJpg from '/Users/shivansh/Downloads/1_Thapar_Student_Residencies.jpg';
 var recep='recep_add';
 class FileCertificatorPage extends Component {
 
