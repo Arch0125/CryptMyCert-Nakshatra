@@ -7,7 +7,7 @@ const MNEMONIC ='sail first renew exclude pattern sea display nuclear matter mir
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
-  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+  contracts_build_directory: path.join(__dirname, "src/contracts"),
   networks: {
     development: {
       host: "localhost",
