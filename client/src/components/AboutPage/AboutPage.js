@@ -5,9 +5,11 @@ import getWeb3 from "../../utils/getWeb3";
 import {ListGroup, ListGroupItem, Card, CardBody, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'shards-react';
 import extensions from '../../assets/fileIcons/';
 import "./FileCertificatorPage.css";
+//QmQrsMiXkwL9YyLtZ3bwr2eDkuaYDRntCRPCkuyf5jKYYp
 var userHash = '';
 var valid=0;
 var total=10000;
+var author='0x475A9091D9E6075e1Bb02B555A226889E760242D';
 class FileCertificatorPage extends Component {
   constructor() {
     super()
@@ -131,7 +133,7 @@ console.log(userHash);
                 window.location.href=dwnurl;
               }
             else{
-                window.location.href='/about';
+                window.location.href='http://localhost:3000/about'; // change URL  
             };
         }
 
@@ -186,6 +188,7 @@ checkAuth = () => {
       return(<p>STATUS:VERIFICATION FAILED</p>);
   }
 }
+// data = document.getElementById('id').value;
 
   render() {
 
@@ -195,14 +198,15 @@ checkAuth = () => {
       <div className={"globalCont"} justify="center">
 
 <form onSubmit={this.handleSubmit}>
+        <p class="top" > Certificate verification portal</p>
         <label>
-          Enter IPFS Hash
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          Enter IPFS Hash : 
+          <input class="input" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
-        <input type="submit" value="Validate" />
+        <input class="valid" type="submit" value="Validate" />
       </form>
       <div className={"pastInterContainer"}>
-        <p> Certificate verification portal (CryptoMyCert)</p>
+        
       </div>
     </div>
 
