@@ -29,8 +29,8 @@
     "clean": "rm -rf build"
   },
   "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+    "npm" : "8.1.2",
+    "node" : "16.13.2"
   },
   "eslintConfig": {
     "extends": "react-app"
