@@ -7,6 +7,13 @@ b {
   margin-right: 5vw;
 }
 
+.certhead{
+  font-size: 20pt;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20pt;
+}
+
 .mainh1title {
   font-size: 1.9rem;
   line-height: 1.2;

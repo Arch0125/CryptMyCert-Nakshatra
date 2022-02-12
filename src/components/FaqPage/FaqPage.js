@@ -226,12 +226,13 @@ checkAuth = () => {
 
     return (
       <>
+      <p class="certhead" >My Certificates</p>
       <div className={"globalCont"} justify="center">
 
       <div className={"pastInterContainer"}>
       {this.outputHistory()}
 
-        <p> Certificate issue portal TIET</p>
+        <p> Certificate issue portal</p>
 
       </div>
     </div>

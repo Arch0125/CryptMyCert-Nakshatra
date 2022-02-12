@@ -11,7 +11,7 @@ import extensions from '../../assets/fileIcons/';
 import "./FileCertificatorPage.css";
 
 
-const IPFS = require('ipfs-api');
+const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
 
 var recep='recep_add';

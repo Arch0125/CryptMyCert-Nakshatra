@@ -128,12 +128,12 @@ console.log(userHash);
           valid=1;
           var dwnurl="https://ipfs.infura.io/ipfs/"+userHash;
 
-          if (window.confirm('The certificate is genuine click OK to download '))
+          if (window.confirm('The certificate is genuine'))
             {
-                window.location.href=dwnurl;
+              window.location.href='/about';
               }
             else{
-                window.location.href='http://localhost:3000/about'; // change URL  
+                window.location.href='/about'; // change URL  
             };
         }
 
