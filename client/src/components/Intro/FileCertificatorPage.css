@@ -74,19 +74,6 @@ b {
   margin-bottom: 2vh;
 }
 
-#fileUplCont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #4c5464;
-  margin-bottom: 5vh;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  padding: 30px;
-  padding-bottom: 45px;
-  border-radius: 20px;
-}
-
 #fileUplCont label {
   margin: 0;
   cursor: pointer;
