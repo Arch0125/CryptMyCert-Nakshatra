@@ -10,6 +10,7 @@
     "crypto-js": "^3.1.9-1",
     "ethers": "^5.5.4",
     "ipfs-api": "^26.1.2",
+    "ipfs-http-client": "^56.0.1",
     "jspdf": "^1.5.3",
     "node-gyp": "^5.0.3",
     "react": "^16.9.0",
@@ -28,9 +29,9 @@
     "eject": "react-scripts eject",
     "clean": "rm -rf build"
   },
-  "engines" : { 
-    "npm" : "8.1.2",
-    "node" : "16.13.2"
+  "engines": {
+    "npm": "8.1.2",
+    "node": "16.13.2"
   },
   "eslintConfig": {
     "extends": "react-app"
