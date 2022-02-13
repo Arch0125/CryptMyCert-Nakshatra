@@ -172,6 +172,7 @@ console.log(userHash);
           <p>{modalContent.returnValues.fileExtension}</p>
           <p><b>Blockchain Transaction:</b></p>
 
+
         </ModalBody>
         <ModalFooter>
 

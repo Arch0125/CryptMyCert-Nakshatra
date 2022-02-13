@@ -2,7 +2,7 @@ const path = require("path");
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
 const mnemonicp = fs.readFileSync(".secret").toString().trim();
-const MNEMONIC ='Insert Mnemonic code'
+const MNEMONIC ='sail first renew exclude pattern sea display nuclear matter miracle abstract slab'
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>

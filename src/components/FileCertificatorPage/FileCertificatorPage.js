@@ -308,6 +308,8 @@ class FileCertificatorPage extends Component {
 
     console.log("MODALCONTENTTT", modalContent);
 
+    var dwnurl = "https://ipfs.io/ipfs/"+modalContent.returnValues.fileHash;
+
     return (
       <Modal animation={true} open={this.state.isTxModalOpen} toggle={() => this.toggleTxModal()}>
         <ModalHeader closeAriaLabel={"clusetubbon"}>
@@ -323,7 +325,8 @@ class FileCertificatorPage extends Component {
           <p>{modalContent.returnValues.fileSize}</p>
           <p><b>Recipient Address:</b></p>
           <p>{modalContent.returnValues.fileExtension}</p>
-
+          <br/>
+          <a href={dwnurl} ><button class="button1" >Download File</button></a>
 
         </ModalBody>
         <ModalFooter>
