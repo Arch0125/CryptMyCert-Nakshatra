@@ -126,11 +126,11 @@ console.log(userHash);
         if(interaction.returnValues.fileHash===userHash)
         {
           valid=1;
-          var dwnurl="https://ipfs.infura.io/ipfs/"+userHash;
+          var dwnurl="https://ipfs.io/ipfs/"+userHash;
 
           if (window.confirm('The certificate is genuine'))
             {
-              window.location.href='/about';
+              window.location.href=dwnurl;
               }
             else{
                 window.location.href='/about'; // change URL  
