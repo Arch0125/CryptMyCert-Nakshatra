@@ -172,7 +172,7 @@ class FileCertificatorPage extends Component {
       </h1>
       <br/>
       <h2 class="intro">
-        with <span class="bold">CryptMyCert</span> you can
+        with <span class="bold">CryptMyCert</span> You can
       </h2>
       <p class="feature">📜 Send certificates to participants through IPFS </p>
       <p class="feature">
